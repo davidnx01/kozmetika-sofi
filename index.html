@@ -1,0 +1,308 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>KOZMETIKA SOFI · kozmetický salón v Trenčíne — neoficiálny návrh</title>
+<meta name="description" content="Neoficiálny návrh webu pre KOZMETIKA SOFI na Zlatovskej ulici v Trenčíne: ošetrenia pleti, SQT, obočie, depilácia, pedikúra.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+<style>
+:root{
+  --frost:#edf1f3;   /* chladný biely svit */
+  --white:#fbfdfd;
+  --slate:#1d2a31;
+  --slate-2:#4a5961;
+  --rose:#c43d68;    /* jediný akcent */
+  --skin:#ead2c4;
+  --line:rgba(29,42,49,.14);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:20px}
+body{background:var(--frost);color:var(--slate);font:400 17px/1.6 "Josefin Sans",system-ui,sans-serif;padding-bottom:calc(74px + env(safe-area-inset-bottom))}
+img,svg{max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--rose);outline-offset:3px}
+.tn{font-variant-numeric:tabular-nums lining-nums}
+.cap{font-weight:700;font-size:12px;letter-spacing:.24em;text-transform:uppercase}
+.in{max-width:1180px;margin:0 auto;padding:0 clamp(16px,4vw,40px)}
+
+.bar{background:var(--slate);color:#dfe7ea;font-size:13px;line-height:1.45;padding:9px 16px 8px;text-align:center}
+
+header{background:var(--white);border-bottom:1px solid var(--line)}
+header .in{display:flex;align-items:center;gap:32px;min-height:74px}
+.logo{display:flex;align-items:baseline;gap:8px;text-decoration:none;line-height:1}
+.logo b{font-weight:700;font-size:13px;letter-spacing:.32em}
+.logo i{font:400 34px/0.8 "Pinyon Script",cursive;color:var(--rose);font-style:normal}
+header nav{display:flex;gap:28px;margin-left:auto}
+header nav a{font-size:15px;text-decoration:none;padding:12px 0;background:linear-gradient(var(--rose),var(--rose)) 0 calc(100% - 9px)/0 1px no-repeat;transition:background-size .2s}
+header nav a:hover{background-size:100% 1px}
+.hcall{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px solid var(--slate);text-decoration:none;font-weight:600;font-size:15px;transition:background .2s,color .2s}
+.hcall:hover{background:var(--slate);color:var(--white)}
+
+/* hero s lupou */
+.hero{background:radial-gradient(circle at 72% 46%,#fff 0,#fff 18%,rgba(255,255,255,0) 52%),var(--frost);overflow:hidden}
+.hero .in{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:24px;min-height:min(600px,82vh);padding-top:40px;padding-bottom:40px}
+.kick{color:var(--slate-2)}
+h1{margin-top:22px;line-height:1}
+h1 .a{display:block;font-weight:700;font-size:clamp(20px,2.4vw,28px);letter-spacing:.42em}
+h1 .b{display:block;font:400 clamp(104px,14vw,180px)/1 "Pinyon Script",cursive;color:var(--slate);margin:6px 0 -2px -4px}
+.sub{font-size:clamp(18px,1.7vw,21px);line-height:1.5;max-width:30ch;margin-top:26px;color:var(--slate)}
+.acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.b1,.b2{display:inline-flex;align-items:center;min-height:50px;padding:2px 24px 0;text-decoration:none;font-weight:600;font-size:16px;transition:background .2s,color .2s}
+.b1{background:var(--rose);color:#fff}
+.b1:hover{background:#a52d55}
+.b2{border:1px solid var(--slate)}
+.b2:hover{background:var(--slate);color:#fff}
+.score{display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:34px;padding-top:18px;border-top:1px solid var(--line);font-size:15px;color:var(--slate-2)}
+.score strong{color:var(--slate);font-size:19px;font-weight:700}
+.lamp{position:relative}
+.lamp svg{display:block;width:100%;max-width:560px;margin:0 0 0 auto}
+.lamp figcaption{position:absolute;left:4%;bottom:6%;font-size:13px;color:var(--slate-2);letter-spacing:.06em;max-width:16ch;line-height:1.35}
+.lamp figcaption::before{content:"";display:block;width:40px;height:1px;background:var(--slate-2);margin-bottom:10px}
+
+/* pod lupou — tmavý blok */
+.focus{background:var(--slate);color:#e9eff1;padding:clamp(56px,8vw,100px) 0}
+.focus .head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px 40px}
+.focus h2{font-weight:400;font-size:clamp(30px,4vw,46px);line-height:1.1;letter-spacing:.01em}
+.focus h2 em{font:400 1.45em/1 "Pinyon Script",cursive;font-style:normal;color:#f0a9bf;margin-left:6px}
+.focus .head p{max-width:40ch;color:#b6c3c9;font-size:16px}
+.lenses{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,3vw,40px);margin-top:56px;list-style:none}
+.lens{position:relative;aspect-ratio:1;border-radius:50%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:16%;
+  background:radial-gradient(circle at 38% 30%,rgba(255,255,255,.13),rgba(255,255,255,.03) 45%,rgba(255,255,255,0) 70%);
+  box-shadow:inset 0 0 0 1px rgba(233,239,241,.35),0 0 0 10px rgba(233,239,241,.06),0 0 0 11px rgba(233,239,241,.22)}
+.lens h3{font-weight:600;font-size:clamp(17px,1.6vw,20px);line-height:1.3}
+.lens .t{font-size:14px;color:#b6c3c9;margin-top:8px}
+.lens .p{font-weight:700;font-size:clamp(34px,3.8vw,48px);line-height:1;margin-top:16px;letter-spacing:-.01em}
+.lens.hl{box-shadow:inset 0 0 0 2px var(--rose),0 0 0 10px rgba(196,61,104,.12),0 0 0 11px rgba(240,169,191,.5)}
+.lens.hl .p{color:#f6bfd0}
+.focus .note{margin-top:40px;font-size:13px;color:#93a4ab}
+.focus .note a{color:#dfe7ea}
+
+/* cenník */
+.list{padding:clamp(60px,8vw,104px) 0 clamp(40px,6vw,72px)}
+.list .top{display:flex;align-items:end;justify-content:space-between;gap:24px;flex-wrap:wrap}
+h2.t2{font-weight:400;font-size:clamp(30px,3.8vw,44px);line-height:1.1}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:48px 44px;margin-top:48px}
+.cat h3{display:flex;align-items:center;gap:12px;font-weight:700;font-size:13px;letter-spacing:.22em;text-transform:uppercase;padding-bottom:14px;border-bottom:1px solid var(--slate)}
+.cat h3 svg{flex:none}
+.cat h3 small{font-weight:400;letter-spacing:.04em;text-transform:none;font-size:13px;color:var(--slate-2)}
+.cat ul{list-style:none}
+.cat li{display:grid;grid-template-columns:1fr auto;gap:2px 16px;padding:12px 0 10px;border-bottom:1px solid var(--line)}
+.cat li span:first-child{transition:transform .5s;transform-origin:0 50%}
+.cat li:hover span:first-child{transform:scale(1.045)}
+.cat li .d{grid-column:1;font-size:13px;color:var(--slate-2)}
+.cat li .c{grid-row:1;grid-column:2;font-weight:700;white-space:nowrap}
+.pnote{font-size:13px;color:var(--slate-2);margin-top:40px}
+
+/* jej slovami */
+.words{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:clamp(60px,8vw,104px) 0}
+.words .in{display:grid;grid-template-columns:.8fr 1.2fr;gap:32px 64px;align-items:start}
+.words blockquote p{font-size:clamp(23px,2.6vw,32px);line-height:1.4;font-weight:400}
+.words .sig{font:400 clamp(44px,5vw,60px)/1 "Pinyon Script",cursive;color:var(--rose);margin-top:22px}
+.words .vals{font-size:17px;color:var(--slate-2);margin-top:28px;max-width:58ch;line-height:1.6}
+.words cite{display:block;font-style:normal;font-size:13px;color:var(--slate-2);margin-top:18px}
+
+/* kontakt */
+.contact{padding:clamp(60px,8vw,104px) 0}
+.contact .in{display:grid;grid-template-columns:1fr 1fr;gap:40px 64px}
+.contact .ph{display:inline-block;font-weight:700;font-size:clamp(30px,3.6vw,42px);margin-top:20px;text-decoration:none;background:linear-gradient(var(--rose),var(--rose)) 0 100%/100% 2px no-repeat;transition:background-size .2s}
+.contact .ph:hover{background-size:0 2px}
+.contact dl{border-top:1px solid var(--slate)}
+.contact dl div{display:grid;grid-template-columns:130px 1fr;gap:12px;padding:16px 0;border-bottom:1px solid var(--line)}
+.contact dt{font-weight:700;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--slate-2);padding-top:3px}
+.contact dd small{display:block;font-size:13px;color:var(--slate-2)}
+.contact dd a{font-weight:600;text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;transition:background-size .2s}
+.contact dd a:hover{background-size:100% 1px}
+
+footer{background:var(--slate);color:#b6c3c9;font-size:13px;padding:30px 16px;text-align:center}
+
+.mob{position:fixed;left:0;right:0;bottom:0;z-index:9;display:none;grid-template-columns:1fr 1fr;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:rgba(251,253,253,.97);border-top:1px solid var(--line)}
+.mob a{display:flex;align-items:center;justify-content:center;min-height:48px;padding-top:2px;font-weight:700;text-decoration:none;border:1px solid var(--slate)}
+.mob a:first-child{background:var(--rose);border-color:var(--rose);color:#fff}
+
+@media (max-width:940px){
+  .lenses{grid-template-columns:1fr;max-width:340px;margin-left:auto;margin-right:auto}
+  .grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:800px){
+  header nav{display:none}
+  .hcall{margin-left:auto}
+  .hero .in{grid-template-columns:1fr;min-height:0;padding-top:28px}
+  .lamp{order:-1;margin:-6px 0 -14px auto;width:min(250px,66%)}
+  .lamp figcaption{display:none}
+  .words .in,.contact .in{grid-template-columns:1fr}
+  .mob{display:grid}
+}
+@media (min-width:801px){body{padding-bottom:0}}
+@media (max-width:620px){
+  .grid{grid-template-columns:1fr}
+  .contact dl div{grid-template-columns:1fr;gap:2px}
+  .hcall{padding:0 12px;font-size:14px}
+  .logo b{font-size:12px;letter-spacing:.26em}
+}
+@media (max-width:620px){
+  .lenses{max-width:none;gap:14px;margin-top:36px}
+  .lens,.lens.hl{aspect-ratio:auto;border-radius:0;box-shadow:none;background:none;padding:0;display:grid;grid-template-columns:120px 1fr;grid-template-rows:auto auto;column-gap:20px;text-align:left;align-items:center;justify-items:start;align-content:center;border-bottom:1px solid rgba(233,239,241,.14);padding-bottom:14px}
+  .lens .p{grid-column:1;grid-row:1/3;width:120px;aspect-ratio:1;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:19px;white-space:nowrap;margin:0;box-shadow:inset 0 0 0 1px rgba(233,239,241,.35),0 0 0 6px rgba(233,239,241,.06),0 0 0 7px rgba(233,239,241,.22)}
+  .lens.hl .p{box-shadow:inset 0 0 0 2px var(--rose),0 0 0 6px rgba(196,61,104,.12),0 0 0 7px rgba(240,169,191,.5)}
+  .lens h3{grid-column:2;align-self:end;font-size:17px}
+  .lens .t{grid-column:2;align-self:start;margin-top:4px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="bar" role="note">Neoficiálny návrh — nie je to oficiálny web podniku · ukážka od webdavid.sk, objednávky ani rezervácie tu nefungujú</div>
+
+<header>
+  <div class="in">
+    <a class="logo" href="#" aria-label="KOZMETIKA SOFI"><b>KOZMETIKA</b><i>Sofi</i></a>
+    <nav aria-label="Navigácia"><a href="#plet">Ošetrenie pleti</a><a href="#cennik">Cenník</a><a href="#kontakt">Kontakt</a></nav>
+    <a class="hcall tn" href="tel:+421911789945">0911 789 945</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+  <div class="in">
+    <div>
+      <p class="cap kick">Kozmetický salón · Zlatovská 17, Trenčín</p>
+      <h1 id="h1"><span class="a">KOZMETIKA</span><span class="b">Sofi</span></h1>
+      <p class="sub">Ošetrenia pleti a SQT, laminácia obočia a mihalníc, depilácia, pedikúra a nechty.</p>
+      <div class="acts">
+        <a class="b1 tn" href="tel:+421911789945">Zavolať 0911 789 945</a>
+        <a class="b2" href="https://www.notino.sk/salony/kozmetika-sofi/" rel="noopener" target="_blank">Rezervovať cez Notino</a>
+      </div>
+      <p class="score tn"><span><strong>5,0 ★</strong> Notino · 7 hodnotení</span><span><strong>4,9 ★</strong> Google · 31 hodnotení*</span></p>
+    </div>
+    <figure class="lamp" aria-hidden="true">
+      <svg viewBox="0 0 560 600" width="560" height="600">
+        <defs>
+          <radialGradient id="hous" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset=".7" stop-color="#e3e9ec"/><stop offset="1" stop-color="#c9d3d8"/></radialGradient>
+          <radialGradient id="skin" cx="45%" cy="40%" r="65%"><stop offset="0" stop-color="#f3dfd3"/><stop offset=".7" stop-color="#e8c8b7"/><stop offset="1" stop-color="#d9b19d"/></radialGradient>
+          <radialGradient id="vig" r="50%"><stop offset=".72" stop-color="#1d2a31" stop-opacity="0"/><stop offset="1" stop-color="#1d2a31" stop-opacity=".28"/></radialGradient>
+          <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7"/></filter>
+          <clipPath id="glass"><circle cx="260" cy="300" r="170"/></clipPath>
+        </defs>
+        <!-- rameno lampy -->
+        <g fill="none" stroke-linecap="butt">
+          <path d="M400 150 L560 -10 M428 178 L560 46" stroke="#c9d3d8" stroke-width="11"/>
+          <path d="M400 150 L560 -10 M428 178 L560 46" stroke="#fff" stroke-width="3" opacity=".75"/>
+        </g>
+        <circle cx="474" cy="104" r="13" fill="#dfe6e9" stroke="#b7c3c9"/><circle cx="474" cy="104" r="4" fill="#b7c3c9"/>
+        <!-- korpus -->
+        <circle cx="260" cy="300" r="228" fill="url(#hous)"/>
+        <circle cx="260" cy="300" r="228" fill="none" stroke="#b7c3c9" stroke-width="1.2"/>
+        <rect x="392" y="128" width="46" height="34" rx="8" transform="rotate(-45 415 145)" fill="#dfe6e9" stroke="#b7c3c9"/>
+        <!-- prstenec svetla -->
+        <circle cx="260" cy="300" r="196" fill="none" stroke="#ffffff" stroke-width="20" filter="url(#glow)"/>
+        <circle cx="260" cy="300" r="196" fill="none" stroke="#f4fbff" stroke-width="9"/>
+        <circle cx="260" cy="300" r="183" fill="#cfd8dc"/>
+        <!-- sklo + zväčšená pleť -->
+        <g clip-path="url(#glass)">
+          <rect x="80" y="120" width="360" height="360" fill="url(#skin)"/>
+          <g fill="#b98472"><ellipse cx="302" cy="382" rx="3.2" ry="3.1" transform="rotate(133 302 382)" opacity="0.53"/><ellipse cx="100" cy="288" rx="3.5" ry="3.1" transform="rotate(162 100 288)" opacity="0.28"/><ellipse cx="249" cy="214" rx="2.7" ry="2.3" transform="rotate(2 249 214)" opacity="0.32"/><ellipse cx="185" cy="442" rx="3.1" ry="2.3" transform="rotate(143 185 442)" opacity="0.29"/><ellipse cx="300" cy="173" rx="1.6" ry="1.5" transform="rotate(38 300 173)" opacity="0.31"/><ellipse cx="273" cy="360" rx="2.0" ry="2.0" transform="rotate(124 273 360)" opacity="0.54"/><ellipse cx="394" cy="232" rx="2.3" ry="1.7" transform="rotate(26 394 232)" opacity="0.27"/><ellipse cx="192" cy="335" rx="1.6" ry="1.5" transform="rotate(61 192 335)" opacity="0.34"/><ellipse cx="368" cy="293" rx="2.2" ry="1.9" transform="rotate(127 368 293)" opacity="0.27"/><ellipse cx="345" cy="417" rx="1.6" ry="1.5" transform="rotate(66 345 417)" opacity="0.42"/><ellipse cx="157" cy="387" rx="3.5" ry="3.4" transform="rotate(62 157 387)" opacity="0.36"/><ellipse cx="268" cy="394" rx="1.8" ry="1.7" transform="rotate(144 268 394)" opacity="0.51"/><ellipse cx="121" cy="246" rx="2.8" ry="2.8" transform="rotate(61 121 246)" opacity="0.53"/><ellipse cx="275" cy="236" rx="2.2" ry="1.7" transform="rotate(14 275 236)" opacity="0.29"/><ellipse cx="425" cy="311" rx="2.4" ry="1.9" transform="rotate(107 425 311)" opacity="0.50"/><ellipse cx="245" cy="273" rx="1.7" ry="1.7" transform="rotate(6 245 273)" opacity="0.40"/><ellipse cx="304" cy="398" rx="1.8" ry="1.5" transform="rotate(27 304 398)" opacity="0.50"/><ellipse cx="190" cy="284" rx="3.6" ry="3.4" transform="rotate(176 190 284)" opacity="0.39"/><ellipse cx="256" cy="378" rx="2.6" ry="2.0" transform="rotate(73 256 378)" opacity="0.29"/><ellipse cx="416" cy="343" rx="2.6" ry="2.1" transform="rotate(16 416 343)" opacity="0.33"/><ellipse cx="356" cy="425" rx="2.3" ry="2.2" transform="rotate(139 356 425)" opacity="0.46"/><ellipse cx="316" cy="388" rx="2.3" ry="2.1" transform="rotate(51 316 388)" opacity="0.40"/><ellipse cx="352" cy="365" rx="2.2" ry="2.2" transform="rotate(117 352 365)" opacity="0.42"/><ellipse cx="94" cy="316" rx="2.1" ry="1.9" transform="rotate(83 94 316)" opacity="0.50"/><ellipse cx="310" cy="401" rx="2.3" ry="2.1" transform="rotate(133 310 401)" opacity="0.50"/><ellipse cx="209" cy="417" rx="3.3" ry="3.0" transform="rotate(176 209 417)" opacity="0.54"/><ellipse cx="266" cy="310" rx="1.9" ry="1.8" transform="rotate(169 266 310)" opacity="0.39"/><ellipse cx="325" cy="375" rx="3.1" ry="2.3" transform="rotate(140 325 375)" opacity="0.42"/><ellipse cx="316" cy="273" rx="2.8" ry="2.7" transform="rotate(115 316 273)" opacity="0.47"/><ellipse cx="240" cy="351" rx="2.0" ry="1.8" transform="rotate(114 240 351)" opacity="0.26"/><ellipse cx="250" cy="207" rx="1.7" ry="1.3" transform="rotate(57 250 207)" opacity="0.30"/><ellipse cx="248" cy="259" rx="2.8" ry="2.5" transform="rotate(43 248 259)" opacity="0.52"/><ellipse cx="185" cy="269" rx="1.8" ry="1.7" transform="rotate(67 185 269)" opacity="0.26"/><ellipse cx="299" cy="162" rx="2.7" ry="2.2" transform="rotate(105 299 162)" opacity="0.54"/><ellipse cx="368" cy="272" rx="3.2" ry="2.9" transform="rotate(66 368 272)" opacity="0.29"/><ellipse cx="293" cy="322" rx="3.5" ry="3.5" transform="rotate(110 293 322)" opacity="0.36"/><ellipse cx="127" cy="322" rx="2.8" ry="2.1" transform="rotate(113 127 322)" opacity="0.52"/><ellipse cx="218" cy="277" rx="2.1" ry="1.6" transform="rotate(175 218 277)" opacity="0.36"/><ellipse cx="293" cy="218" rx="3.6" ry="3.0" transform="rotate(75 293 218)" opacity="0.35"/><ellipse cx="425" cy="297" rx="2.2" ry="1.8" transform="rotate(22 425 297)" opacity="0.44"/><ellipse cx="241" cy="230" rx="3.2" ry="3.0" transform="rotate(2 241 230)" opacity="0.41"/><ellipse cx="183" cy="448" rx="3.2" ry="2.4" transform="rotate(48 183 448)" opacity="0.30"/><ellipse cx="297" cy="291" rx="2.9" ry="2.5" transform="rotate(134 297 291)" opacity="0.29"/><ellipse cx="349" cy="232" rx="2.7" ry="2.1" transform="rotate(53 349 232)" opacity="0.41"/><ellipse cx="248" cy="253" rx="3.1" ry="2.7" transform="rotate(7 248 253)" opacity="0.33"/><ellipse cx="245" cy="442" rx="3.4" ry="2.9" transform="rotate(3 245 442)" opacity="0.48"/><ellipse cx="235" cy="326" rx="3.0" ry="2.7" transform="rotate(87 235 326)" opacity="0.52"/><ellipse cx="221" cy="263" rx="3.3" ry="2.5" transform="rotate(53 221 263)" opacity="0.50"/><ellipse cx="326" cy="277" rx="2.2" ry="2.0" transform="rotate(164 326 277)" opacity="0.29"/><ellipse cx="253" cy="317" rx="2.6" ry="2.1" transform="rotate(28 253 317)" opacity="0.43"/><ellipse cx="168" cy="409" rx="3.2" ry="2.9" transform="rotate(5 168 409)" opacity="0.47"/><ellipse cx="328" cy="147" rx="3.3" ry="2.5" transform="rotate(116 328 147)" opacity="0.54"/><ellipse cx="332" cy="176" rx="2.2" ry="2.1" transform="rotate(27 332 176)" opacity="0.43"/><ellipse cx="231" cy="185" rx="2.8" ry="2.0" transform="rotate(19 231 185)" opacity="0.36"/><ellipse cx="286" cy="382" rx="3.4" ry="2.5" transform="rotate(78 286 382)" opacity="0.34"/><ellipse cx="294" cy="296" rx="3.5" ry="2.8" transform="rotate(10 294 296)" opacity="0.46"/><ellipse cx="141" cy="345" rx="2.6" ry="2.5" transform="rotate(100 141 345)" opacity="0.44"/><ellipse cx="180" cy="318" rx="2.1" ry="2.0" transform="rotate(93 180 318)" opacity="0.29"/><ellipse cx="170" cy="256" rx="3.1" ry="2.3" transform="rotate(128 170 256)" opacity="0.45"/><ellipse cx="119" cy="357" rx="1.8" ry="1.3" transform="rotate(107 119 357)" opacity="0.32"/><ellipse cx="388" cy="293" rx="2.2" ry="2.1" transform="rotate(5 388 293)" opacity="0.47"/><ellipse cx="414" cy="362" rx="2.0" ry="1.5" transform="rotate(175 414 362)" opacity="0.45"/><ellipse cx="369" cy="178" rx="2.8" ry="2.3" transform="rotate(42 369 178)" opacity="0.35"/><ellipse cx="299" cy="249" rx="2.4" ry="1.8" transform="rotate(150 299 249)" opacity="0.44"/><ellipse cx="364" cy="277" rx="3.3" ry="2.8" transform="rotate(107 364 277)" opacity="0.42"/><ellipse cx="342" cy="264" rx="1.8" ry="1.3" transform="rotate(36 342 264)" opacity="0.26"/><ellipse cx="392" cy="294" rx="3.1" ry="2.2" transform="rotate(85 392 294)" opacity="0.52"/><ellipse cx="301" cy="276" rx="2.5" ry="1.8" transform="rotate(28 301 276)" opacity="0.30"/><ellipse cx="217" cy="261" rx="3.4" ry="2.5" transform="rotate(46 217 261)" opacity="0.33"/><ellipse cx="145" cy="228" rx="2.1" ry="1.7" transform="rotate(6 145 228)" opacity="0.53"/><ellipse cx="215" cy="449" rx="3.0" ry="2.7" transform="rotate(85 215 449)" opacity="0.53"/><ellipse cx="130" cy="357" rx="2.2" ry="2.0" transform="rotate(131 130 357)" opacity="0.30"/><ellipse cx="226" cy="461" rx="2.3" ry="1.8" transform="rotate(84 226 461)" opacity="0.33"/><ellipse cx="339" cy="374" rx="1.9" ry="1.5" transform="rotate(121 339 374)" opacity="0.53"/><ellipse cx="310" cy="276" rx="3.6" ry="2.5" transform="rotate(11 310 276)" opacity="0.48"/><ellipse cx="229" cy="145" rx="2.7" ry="2.7" transform="rotate(93 229 145)" opacity="0.36"/><ellipse cx="396" cy="297" rx="3.5" ry="2.5" transform="rotate(44 396 297)" opacity="0.27"/><ellipse cx="225" cy="150" rx="2.1" ry="1.7" transform="rotate(55 225 150)" opacity="0.27"/><ellipse cx="151" cy="303" rx="2.4" ry="2.1" transform="rotate(15 151 303)" opacity="0.34"/><ellipse cx="127" cy="314" rx="3.4" ry="3.0" transform="rotate(154 127 314)" opacity="0.31"/><ellipse cx="96" cy="313" rx="2.6" ry="2.2" transform="rotate(68 96 313)" opacity="0.44"/><ellipse cx="337" cy="440" rx="2.2" ry="1.8" transform="rotate(149 337 440)" opacity="0.32"/><ellipse cx="129" cy="236" rx="1.8" ry="1.7" transform="rotate(147 129 236)" opacity="0.34"/><ellipse cx="173" cy="159" rx="2.5" ry="2.1" transform="rotate(44 173 159)" opacity="0.27"/><ellipse cx="328" cy="146" rx="2.0" ry="1.6" transform="rotate(67 328 146)" opacity="0.28"/><ellipse cx="233" cy="237" rx="3.1" ry="2.7" transform="rotate(161 233 237)" opacity="0.45"/><ellipse cx="348" cy="325" rx="2.5" ry="2.3" transform="rotate(118 348 325)" opacity="0.54"/><ellipse cx="338" cy="368" rx="2.1" ry="2.0" transform="rotate(69 338 368)" opacity="0.29"/><ellipse cx="179" cy="360" rx="2.2" ry="1.6" transform="rotate(137 179 360)" opacity="0.42"/><ellipse cx="134" cy="251" rx="3.3" ry="3.3" transform="rotate(110 134 251)" opacity="0.32"/><ellipse cx="236" cy="253" rx="2.3" ry="1.6" transform="rotate(105 236 253)" opacity="0.50"/><ellipse cx="337" cy="162" rx="2.7" ry="2.0" transform="rotate(128 337 162)" opacity="0.38"/><ellipse cx="130" cy="238" rx="3.4" ry="2.9" transform="rotate(78 130 238)" opacity="0.38"/><ellipse cx="271" cy="460" rx="2.8" ry="2.0" transform="rotate(147 271 460)" opacity="0.38"/><ellipse cx="101" cy="326" rx="2.6" ry="2.5" transform="rotate(71 101 326)" opacity="0.31"/></g><g fill="none" stroke="#c4917f" stroke-linecap="round"><path d="M80,242 Q125,249 148,249 Q170,248 192,253 Q215,258 238,256 Q260,255 282,245 Q305,235 328,241 Q350,248 372,230 Q395,213 418,215" stroke-width="1.4" opacity="0.33"/><path d="M80,232 Q125,235 148,234 Q170,233 192,223 Q215,213 238,216 Q260,218 282,214 Q305,211 328,204 Q350,197 372,205 Q395,214 418,224" stroke-width="1.1" opacity="0.35"/><path d="M80,394 Q125,387 148,382 Q170,377 192,377 Q215,376 238,372 Q260,367 282,366 Q305,365 328,375 Q350,384 372,391 Q395,398 418,404" stroke-width="1.0" opacity="0.30"/><path d="M80,190 Q125,184 148,183 Q170,182 192,181 Q215,180 238,183 Q260,186 282,185 Q305,184 328,192 Q350,201 372,189 Q395,177 418,178" stroke-width="1.3" opacity="0.33"/><path d="M80,398 Q125,401 148,401 Q170,401 192,407 Q215,412 238,409 Q260,406 282,412 Q305,418 328,413 Q350,407 372,415 Q395,423 418,404" stroke-width="1.3" opacity="0.32"/><path d="M80,387 Q125,393 148,396 Q170,398 192,402 Q215,406 238,405 Q260,405 282,398 Q305,392 328,398 Q350,404 372,393 Q395,382 418,389" stroke-width="1.4" opacity="0.30"/><path d="M80,183 Q125,190 148,195 Q170,199 192,197 Q215,194 238,198 Q260,201 282,187 Q305,173 328,171 Q350,168 372,166 Q395,165 418,161" stroke-width="1.4" opacity="0.31"/></g>
+          <circle cx="260" cy="300" r="170" fill="url(#vig)"/>
+          <path d="M140 230 A150 150 0 0 1 250 150" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" opacity=".45"/>
+          <path d="M128 262 A150 150 0 0 1 134 246" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".4"/>
+        </g>
+        <circle cx="260" cy="300" r="170" fill="none" stroke="#9fb0b8" stroke-width="2"/>
+        <circle cx="260" cy="300" r="176" fill="none" stroke="#ffffff" stroke-width="1.5" opacity=".8"/>
+      </svg>
+      <figcaption>Ošetrenie pleti — pod lupou, na mieru</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="focus" id="plet" aria-labelledby="h-plet">
+  <div class="in">
+    <div class="head">
+      <h2 id="h-plet">Pleť pod <em>lupou</em></h2>
+      <p>Tri ošetrenia tváre z cenníka salónu. Cena a čas sú na Notino uvedené ako rozpätie, presnú sumu potvrdí salón.</p>
+    </div>
+    <ul class="lenses">
+      <li class="lens"><h3>Individuálne ošetrenie tváre, krku, dekoltu</h3><p class="t tn">1 h 15 min – 1 h 45 min</p><p class="p tn">50 – 80 €</p></li>
+      <li class="lens hl"><h3>Ošetrenie SQT</h3><p class="t tn">1 h 15 min – 1 h 45 min</p><p class="p tn">90 – 150 €</p></li>
+      <li class="lens"><h3>Ošetrenie pokožky podľa potreby</h3><p class="t tn">15 min – 1 h 45 min</p><p class="p tn">5 – 80 €</p></li>
+    </ul>
+    <p class="note">Ceny podľa profilu na Notino (1. 10. 2026), overiť · <a href="https://www.notino.sk/salony/kozmetika-sofi/" rel="noopener" target="_blank">rezervácia cez Notino</a> alebo telefonicky.</p>
+  </div>
+</section>
+
+<section class="list" id="cennik" aria-labelledby="h-cen">
+  <div class="in">
+    <div class="top"><h2 class="t2" id="h-cen">Cenník ďalších služieb</h2><p class="cap" style="color:var(--slate-2)">trvanie · cena</p></div>
+    <div class="grid">
+      <div class="cat"><h3><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="9.5" fill="none" stroke="#1d2a31" stroke-width="1.2"/><circle cx="11" cy="11" r="6" fill="#ead2c4"/><path d="M7.6 9.2a4 4 0 0 1 2.6-2.4" stroke="#fff" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg>Riasy a obočie</h3><ul>
+        <li><span>Laminácia obočia/mihalníc</span><span class="d tn">1 h</span><span class="c tn">30 €</span></li>
+        <li><span>Farbenie mihalníc</span><span class="d tn">20 min</span><span class="c tn">10 €</span></li>
+        <li><span>Farbenie obočia</span><span class="d tn">20 min</span><span class="c tn">10 €</span></li>
+        <li><span>Úprava obočia</span><span class="d tn">10 min</span><span class="c tn">5 €</span></li>
+        <li><span>Farbenie k laminácii</span><span class="d tn">10 min</span><span class="c tn">5 €</span></li>
+      </ul></div>
+      <div class="cat"><h3><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="9.5" fill="none" stroke="#1d2a31" stroke-width="1.2"/><circle cx="11" cy="11" r="6" fill="#ead2c4"/><path d="M7.6 9.2a4 4 0 0 1 2.6-2.4" stroke="#fff" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg>Kozmetické masáže</h3><ul>
+        <li><span>Masáž tváre, krku, dekoltu</span><span class="d tn">15 – 45 min</span><span class="c tn">5 – 35 €</span></li>
+        <li><span>Masáž pri ošetrení — tvár, krk, dekolt</span><span class="d tn">10 – 30 min</span><span class="c tn">5 – 25 €</span></li>
+        <li><span>Masáž chodidiel</span><span class="d tn">15 min · relaxačná</span><span class="c tn">5 €</span></li>
+      </ul></div>
+      <div class="cat"><h3><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="9.5" fill="none" stroke="#1d2a31" stroke-width="1.2"/><circle cx="11" cy="11" r="6" fill="#ead2c4"/><path d="M7.6 9.2a4 4 0 0 1 2.6-2.4" stroke="#fff" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg>Pedikúra <small>dámska aj pánska</small></h3><ul>
+        <li><span>Pedikúra</span><span class="d tn">1 h 30 min</span><span class="c tn">35 €</span></li>
+        <li><span>Ošetrenie kože/nechtov</span><span class="d tn">15 min – 1 h</span><span class="c tn">5 – 25 €</span></li>
+        <li><span>Odstránenie gélu pri pedikúre</span><span class="d tn">15 min</span><span class="c tn">5 €</span></li>
+      </ul></div>
+      <div class="cat"><h3><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="9.5" fill="none" stroke="#1d2a31" stroke-width="1.2"/><circle cx="11" cy="11" r="6" fill="#ead2c4"/><path d="M7.6 9.2a4 4 0 0 1 2.6-2.4" stroke="#fff" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg>Depilácia</h3><ul>
+        <li><span>Celé nohy</span><span class="d tn">45 min</span><span class="c tn">30 €</span></li>
+        <li><span>Stehná</span><span class="d tn">25 min</span><span class="c tn">20 €</span></li>
+        <li><span>Celé ruky</span><span class="d tn">25 min</span><span class="c tn">20 €</span></li>
+        <li><span>Celý chrbát</span><span class="d tn">20 min</span><span class="c tn">20 €</span></li>
+        <li><span>Predkolenie</span><span class="d tn">20 min</span><span class="c tn">15 €</span></li>
+        <li><span>Bikini/podpažie</span><span class="d tn">15 min</span><span class="c tn">15 €</span></li>
+      </ul></div>
+      <div class="cat"><h3><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="9.5" fill="none" stroke="#1d2a31" stroke-width="1.2"/><circle cx="11" cy="11" r="6" fill="#ead2c4"/><path d="M7.6 9.2a4 4 0 0 1 2.6-2.4" stroke="#fff" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg>Depilácia <small>menšie oblasti</small></h3><ul>
+        <li><span>Predlaktie</span><span class="d tn">15 min</span><span class="c tn">15 €</span></li>
+        <li><span>Hruď</span><span class="d tn">15 min</span><span class="c tn">15 €</span></li>
+        <li><span>Brucho</span><span class="d tn">15 min</span><span class="c tn">10 €</span></li>
+        <li><span>Pera/brada/nos/uši</span><span class="d tn">10 min</span><span class="c tn">5 €</span></li>
+        <li><span>1 oblasť</span><span class="d tn">5 – 30 min</span><span class="c tn">5 – 20 €</span></li>
+      </ul></div>
+      <div class="cat"><h3><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="9.5" fill="none" stroke="#1d2a31" stroke-width="1.2"/><circle cx="11" cy="11" r="6" fill="#ead2c4"/><path d="M7.6 9.2a4 4 0 0 1 2.6-2.4" stroke="#fff" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg>Nechty</h3><ul>
+        <li><span>Odstránenie gélu</span><span class="d tn">15 min</span><span class="c tn">10 €</span></li>
+        <li><span>Lakovanie jednofarebné</span><span class="d tn">15 min</span><span class="c tn">5 €</span></li>
+        <li><span>Odlakovanie</span><span class="d tn">5 min</span><span class="c tn">1 €</span></li>
+      </ul></div>
+    </div>
+    <p class="pnote">Ceny podľa profilu na Notino (1. 10. 2026), overiť. * Hodnotenie Google podľa verejných údajov k 1. 10. 2026, overiť.</p>
+  </div>
+</section>
+
+<section class="words" aria-label="Slovami salónu">
+  <div class="in">
+    <p class="cap" style="color:var(--slate-2)">Slovami salónu</p>
+    <blockquote>
+      <p>„Práca kozmetičky je moja vášeň. Do každej procedúry dávam kúsok seba, svojich zručností, vedomostí a cenných rád.“</p>
+      <p class="vals">„Dôvera, profesionalita, príjemné prostredie, individuálny prístup, kvalitné produkty, ošetrenia namieru a odborné poradenstvo nie sú len samozrejmosťou, ale súčasťou každej procedúry.“</p>
+      <p class="sig">Teším sa na vás.</p>
+      <cite>— z profilu salónu na Notino</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section class="contact" id="kontakt" aria-labelledby="h-kon">
+  <div class="in">
+    <div>
+      <p class="cap" style="color:var(--slate-2)">Kontakt a objednávky</p>
+      <h2 class="t2" id="h-kon" style="margin-top:14px">Termín dohodnete telefonicky alebo cez Notino</h2>
+      <a class="ph tn" href="tel:+421911789945">+421 911 789 945</a>
+    </div>
+    <dl>
+      <div><dt>Adresa</dt><dd>Zlatovská 17, 911 05 Trenčín<small><a href="https://www.google.com/maps/search/KOZMETIKA+SOFI+Trenčín" rel="noopener" target="_blank">Otvoriť v Google Maps</a></small></dd></div>
+      <div><dt>Hodiny</dt><dd>doplní salón<small>Notino zobrazuje len aktuálny stav, pravidelné hodiny overiť</small></dd></div>
+      <div><dt>Rezervácia</dt><dd><a href="https://www.notino.sk/salony/kozmetika-sofi/" rel="noopener" target="_blank">Profil na Notino</a></dd></div>
+      <div><dt>Sledujte</dt><dd><a href="https://www.instagram.com/kozmetikasofi/" rel="noopener" target="_blank">Instagram</a> · <a href="https://www.facebook.com/kozmetikasofi/" rel="noopener" target="_blank">Facebook</a></dd></div>
+    </dl>
+  </div>
+</section>
+</main>
+
+<footer>Neoficiálny návrh webu · webdavid.sk · 2026</footer>
+
+<nav class="mob" aria-label="Rýchle akcie"><a href="tel:+421911789945">Zavolať</a><a href="https://www.notino.sk/salony/kozmetika-sofi/" rel="noopener" target="_blank">Notino</a></nav>
+</html>
